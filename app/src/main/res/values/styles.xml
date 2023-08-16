@@ -1,0 +1,280 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blueDark</item>
+        <!-- Required for sign-in flow styling -->
+        <item name="colorPrimaryDark">@color/redPrimaryDark</item>
+        <item name="colorAccent">@color/greyDark2</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowBackground">@drawable/language_page</item>-->
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorDesignRed</item>
+        <!-- Required for sign-in flow styling -->
+        <item name="colorPrimaryDark">@color/redPrimaryDark</item>
+        <item name="colorAccent">@color/orangeDark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowBackground">@drawable/language_page</item>-->
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="AppThemeActionbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blueDark</item>
+        <!-- Required for sign-in flow styling -->
+        <item name="colorPrimaryDark">@color/redPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowBackground">@drawable/language_page</item>-->
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="AppTheme4" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blueDark</item>
+        <!-- Required for sign-in flow styling -->
+        <item name="colorPrimaryDark">@color/redPrimaryDark</item>
+        <item name="colorAccent">@color/orangeDark</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorPrimaryFullTranparent</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blueDark</item>
+        <item name="colorPrimaryDark">@color/redPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="AppTheme5" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blueDark</item>
+        <!-- Required for sign-in flow styling -->
+        <item name="colorPrimaryDark">@color/redPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/redFont</item>
+        <item name="android:textSize">14sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/redFont</item>
+        <item name="android:background">@color/colorPrimaryFullTranparent</item>
+        <item name="colorControlNormal">@color/redFont</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorPrimaryYellow</item>
+        <item name="colorControlActivated">@color/colorPrimaryYellow</item>
+    </style>
+
+    <style name="RatingBarYellow" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/colorPrimaryYellow</item>
+        <item name="colorControlActivated">@color/colorPrimaryYellow</item>
+    </style>
+
+    <style name="RatingBarCustom" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:minHeight">18dip</item>
+        <item name="android:maxHeight">18dip</item>
+        <!--<item name="android:progressDrawable">@drawable/star_rating_bar_full</item>-->
+    </style>
+
+    <style name="RatingBarPrimary" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/orangeDark</item>
+        <item name="colorControlActivated">@color/orangeDark</item>
+    </style>
+
+    <style name="RatingBarDark" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/blueDark</item>
+        <item name="colorControlActivated">@color/blueDark</item>
+    </style>
+
+    <style name="Widget" />
+
+    <style name="Theme.Swipe.Back" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Swipe.Back.transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryWhite</item>
+        <item name="colorPrimaryDark">@color/blueDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="Theme.Swipe.Back.black" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryWhite</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryBlack</item>
+        <item name="colorAccent">@color/colorPrimaryBlack</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/colorPrimaryBlack</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="trimLength" format="integer" />
+    </declare-styleable>
+
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <!--   <item name="tabMaxWidth">@dimen/tab_max_width</item>-->
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <item name="tabPaddingStart">6dp</item>
+        <item name="tabPaddingEnd">6dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <!-- <item name="tabTextAppearance">@style/AppTabTextAppearance</item>  -->
+        <item name="tabSelectedTextColor">@color/white</item>
+    </style>
+
+    <style name="AppTabLayoutRed" parent="Widget.Design.TabLayout">
+        <!--   <item name="tabMaxWidth">@dimen/tab_max_width</item>-->
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <item name="tabPaddingStart">6dp</item>
+        <item name="tabPaddingEnd">6dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <!-- <item name="tabTextAppearance">@style/AppTabTextAppearance</item>  -->
+        <item name="tabSelectedTextColor">@color/redFont</item>
+    </style>
+
+    <!--  White  Button Style  -->
+    <style name="WhiteButton" parent="android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/blueDark</item>
+        <item name="android:background">@drawable/button_white_selector</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+
+    <!--  Orange  Button Style  -->
+    <style name="OrangeButton" parent="android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/button_orange_selector</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+
+    <!--  Dark Button Style  -->
+    <style name="DarkButton" parent="android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryWhite</item>
+        <item name="android:background">@drawable/button_selector_dark</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+
+    <!--  Normal  Button Style  -->
+    <style name="NormalButton" parent="android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryWhite</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+<!--  Normal  Button Style  -->
+    <style name="NormalButtonNoMargin" parent="android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryWhite</item>
+        <item name="android:background">@drawable/button_selector</item>
+    </style>
+
+    <!--  Normal Edittext Style  -->
+    <style name="NormalEditText" parent="android:style/Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/greyLight</item>
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:ems">10</item>
+        <item name="android:paddingLeft">15dp</item>
+    </style>
+
+    <!--  Normal Edittext Style  -->
+    <style name="NormalEditTextRectangle" parent="android:style/Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/greyLight</item>
+        <item name="android:background">@drawable/rect_dark</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:ems">10</item>
+        <item name="android:paddingLeft">15dp</item>
+    </style>
+
+    <!--  Login Button Style  -->
+    <style name="LoginButton" parent="android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryWhite</item>
+        <item name="android:background">@drawable/login_button_selector</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+
+    <!--  Facebook Login Button Style  -->
+    <style name="FacebookLoginButton" parent="android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryWhite</item>
+        <item name="android:background">@drawable/fb_button_selector</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+
+    <!--  Twitter Login Button Style  -->
+    <style name="TwitterLoginButton" parent="android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryWhite</item>
+        <item name="android:background">@drawable/twitter_button_selector</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+
+    <!--  Google Login Button Style  -->
+    <style name="GoogleLoginButton" parent="android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryWhite</item>
+        <item name="android:background">@drawable/google_button_selector</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+
+    <!-- for text -->
+    <!-- <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="textAllCaps">false</item>
+    </style> -->
+
+</resources>

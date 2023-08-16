@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+    <tab
+        icon="@drawable/ic_driver"
+        id="@+id/all_stores"
+        title="@string/all_stores" />
+
+    <tab
+        icon="@drawable/ic_done"
+        id="@+id/all_posts"
+        title="@string/all_posts" />
+</tabs>
+

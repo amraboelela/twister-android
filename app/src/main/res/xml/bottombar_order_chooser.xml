@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/ic_new"
+        id="@+id/ready_orders"
+        title="@string/ready_orders" />
+    <tab
+        icon="@drawable/ic_new"
+        id="@+id/new_orders"
+        title="@string/new_orders" />
+    <tab
+        icon="@drawable/ic_new"
+        id="@+id/started_orders"
+        title="@string/started_orders" />
+    <tab
+        icon="@drawable/ic_all"
+        id="@+id/assigned_orders"
+        title="@string/assigned_orders" />
+
+    <tab
+        icon="@drawable/ic_done"
+        id="@+id/delivered_orders"
+        title="@string/delivered_orders" />
+
+</tabs>
+

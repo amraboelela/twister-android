@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- New Design Colors -->
+    <color name="orangeDark">#f89e1b</color>
+    <color name="redFont">#00c1ec</color>
+    <color name="blueDark">#00c1ec</color>
+    <color name="twisterBlue">#0089c4</color>
+    <color name="phoneBlue">#1369fe</color>
+    <color name="darkGreen">#007400</color>
+    <color name="darkGray">#555555</color>
+    <color name="itemOrange">#ff6432</color>
+    <color name="pink">#d31f82</color>
+    <color name="redPrimaryDark">#00c1ec</color>
+    <color name="greyLight">#ebebeb</color>
+    <color name="greyMedium">#cccccc</color>
+    <color name="greyMedium2">#c1c1c1</color>
+    <color name="greyDark">#a2a2a2</color>
+    <color name="greyDark2">#2a2a2a</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="semiTransparent">#99ffffff</color>
+
+    <color name="circular_progress_default_progress">#bada55</color>
+    <color name="circular_progress_default_background">#787878</color>
+    <color name="circular_progress_default_title">#bada55</color>
+    <color name="circular_progress_default_subtitle">#D1D1D1</color>
+
+    <!-- Design Colors -->
+    <color name="colorDesignRed">#eb2124</color>
+    <color name="colorDesignblueDark">#a51618</color>
+    <color name="colorDesignBG">#2a2a2a</color>
+    <color name="colorDesignBGLight">#424542</color>
+    <color name="colorDesignDark">#131313</color>
+    <color name="colorDesignYellow">#ced027</color>
+    <color name="colorDesignGoogle">#dc4b38</color>
+    <color name="colorDesignTwitter">#23b0e6</color>
+    <color name="colorDesignFacebook">#3a5695</color>
+    <color name="colorDesignText">#918c89</color>
+
+    <!-- Application Theme Colors -->
+    <color name="colorPrimary">#03e1e6</color>
+    <color name="colorPrimaryDark">#00c1ec</color>
+    <color name="colorAccent">#f89e1b</color>
+
+    <!-- Normal Button Selector -->
+    <color name="colorPrimaryPressed">#ee9900</color>
+    <color name="colorPrimaryFocused">#ee9900</color>
+
+    <!-- Login Button Selector -->
+    <color name="light_orange">#ffb500</color>
+    <color name="light_orange_Pressed">#ff0000</color>
+
+    <!-- Facebook Login Button Selector -->
+    <color name="com_facebook_blue">#3B5998</color>
+    <color name="com_facebook_blue_Pressed">#35a7ed</color>
+
+    <!-- Twitter Login Button Selector -->
+    <color name="fui_bgTwitter">#FF5BAAF4</color>
+    <color name="fui_bgTwitter_Pressed">#35a7ed</color>
+
+    <!-- Google Login Button Selector -->
+    <color name="colorPrimaryYellow">#ffff00</color>
+
+    <color name="black_20">#33000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="colorPrimaryOld">#3F51B5</color>
+    <color name="colorPrimaryDarkOld">#303F9F</color>
+
+    <color name="colorPrimary3">#212735</color>
+    <color name="colorPrimaryDark3">#21425d</color>
+    <color name="colorAccent3">#01bcd5</color>
+
+
+    <color name="colorPrimaryOld2">#673ab7</color>
+    <color name="colorPrimaryDarkOld2">#4a1c9a</color>
+    <color name="colorAccentOld2">#DA4336</color>
+
+    <color name="colorAccentLight">#ff9936</color>
+
+    <color name="logoCyan">#34b1f7</color>
+    <color name="logoOrange">#f89e1b</color>
+    <color name="logoCyanDark">#35a7ed</color>
+    <color name="logoBlack">#202835</color>
+    <color name="logoBlue">#0238b0</color>
+
+    <color name="colorPrimaryWhite">#ffffff</color>
+    <color name="colorPrimaryBlue_dark">#1f2836</color>
+    <color name="colorPrimaryGray_light">#f0f0f0</color>
+    <color name="colorPrimaryGray_light2">#B0BEC5</color>
+    <color name="colorPrimaryGray_medium">#9e9e9e</color>
+    <color name="colorPrimaryGray_dark">#666666</color>
+    <color name="colorPrimaryCyan">#139ff0</color>
+    <color name="colorPrimaryBlue">#3F51B5</color>
+    <color name="colorPrimaryRed">#ff0000</color>
+    <color name="colorPrimaryBlack">#000000</color>
+    <color name="colorPrimaryRed_Dark">#cf4332</color>
+    <color name="colorPrimaryRed_2">#DA4336</color>
+
+    <color name="colorPrimaryGray_dark_very">#333333</color>
+    <color name="colorPrimaryGold">#FFDF00</color>
+
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+
+    <color name="light_green">#3eb74e</color>
+    <color name="light_purple">#8c61b3</color>
+    <color name="orange">#ff9900</color>
+    <color name="light_cyan">#00BCD4</color>
+    <color name="material_green_50">#E8F5E9</color>
+    <color name="material_green_500">#4CAF50</color>
+    <color name="material_green_700">#388E3C</color>
+    <color name="material_green_a200">#69F0AE</color>
+    <color name="material_lime_a700">#AEEA00</color>
+    <color name="material_purple_a700">#AA00FF</color>
+    <color name="material_purple_1000">#BB00BB</color>
+    <color name="semi_transparent">#99000000</color>
+    <color name="semi_transparent_light">#66000000</color>
+
+    <color name="colorPrimaryTranparent">#33ffffff</color>
+    <color name="colorPrimaryFullTranparent">#00000000</color>
+
+    <color name="fab_color_pressed">#007787</color>
+    <color name="fab_color_shadow">#44000000</color>
+
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+    <color name="btn_context_menu_normal">#ffffff</color>
+    <color name="btn_context_menu_pressed">#40000000</color>
+    <color name="btn_context_menu_text_red">#ffff0000</color>
+
+    <color name="style_color_primary">#212735</color>
+    <color name="style_color_primary_dark">#21425d</color>
+    <color name="style_color_accent">#01bcd5</color>
+
+    <color name="material_deep_purple_50">#EDE7F6</color>
+    <color name="material_deep_purple_500">#673AB7</color>
+    <color name="material_deep_purple_700">#512DA8</color>
+    <color name="material_deep_purple_a200">#E040FB</color>
+    <color name="material_purple_50">#F3E5F5</color>
+    <color name="material_red_a200">#FF5252</color>
+
+    <color name="text_like_counter">#2b5a83</color>
+    <color name="bg_comments">#ffffff</color>
+    <color name="half_black">#808080</color>
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="user_detail_separator">#007787</color>
+
+    <!-- week view -->
+    <color name="accent">#2789e4</color>
+
+    <!--PostPlanApp-->
+
+    <color name="PrimaryDarkColor">#1976d2</color>
+    <color name="colorTextIcons">#FFFFFF</color>
+    <color name="colorSecondaryText">#727272</color>
+
+    <!--CardView-->
+    <color name="rain">#81D4FA</color>
+    <color name="clear_day">#FFCA28</color>
+    <color name="clear_night">#81D4FA</color>
+    <color name="snow">#addee5</color>
+    <color name="sleet">#BCAAA4</color>
+    <color name="wind">#E0E0E0</color>
+    <color name="fog">#E0E0E0</color>
+    <color name="cloudy">#E0E0E0</color>
+    <color name="partly_cloudy_day">#FFCA28</color>
+    <color name="partly_cloudy_night">#81D4FA</color>
+    <color name="hail">#B0BEC5</color>
+    <color name="thunderstorm">#B0BEC5</color>
+    <color name="tornado">#B0BEC5</color>
+    <color name="textColor">#FFFFFF</color>
+
+
+    <color name="bgBackSideColor">#f4f0ff</color>
+    <color name="bgTitleLeft">#594691</color>
+    <color name="bgTitleRight">#ffffff</color>
+    <color name="bgContentTop">#594691</color>
+    <color name="bgContent">#ffffff</color>
+    <color name="contentDividerLine">#e0e0e0</color>
+    <color name="contentBadgeTitle">#a9a9a9</color>
+    <color name="titleBadgeTitle">#adafb1</color>
+    <color name="titleBadgeText">#adafb1</color>
+    <color name="mainTextColor">#343d43</color>
+    <color name="btnRequest">#ffbf12</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="view_pager">#212735</color>
+    <color name="windowBackgroundColor">#FFFFFF</color>
+
+</resources>

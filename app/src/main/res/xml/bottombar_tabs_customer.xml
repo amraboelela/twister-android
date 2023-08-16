@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/ic_all"
+        id="@+id/all_orders"
+        title="@string/all_orders" />
+</tabs>
+
